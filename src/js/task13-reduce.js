@@ -1,13 +1,20 @@
-// Task 13 - Array reduce()
+/**
+ * Task 13 - Array reduce()
+ * Demonstrates reducing an array to a single value
+ */
 
-const marks = [80, 90, 70, 100];
+function demonstrateReduce() {
+    const marks = [80, 90, 70, 100];
 
-console.log("=== Task 13: Array reduce() ===");
+    console.log("=== Task 13: Array reduce() ===");
 
-console.log("Marks:", marks);
+    console.log("Marks:", marks);
 
-// Using reduce() to calculate the total marks
-const totalMarks = marks.reduce((accumulator, current) => accumulator + current, 0);
+    // Using reduce() to calculate the total marks
+    const totalMarks = marks.reduce((accumulator, current) => accumulator + current, 0);
 
-console.log("Total Marks:", totalMarks);
-console.log("");
+    console.log("Total Marks:", totalMarks);
+    console.log("");
+}
+
+demonstrateReduce();
