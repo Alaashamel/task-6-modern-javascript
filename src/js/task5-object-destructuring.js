@@ -1,17 +1,24 @@
-// Task 5 - Object Destructuring
+/**
+ * Task 5 - Object Destructuring
+ * Demonstrates extracting object properties using destructuring
+ */
 
-const student = {
-    name: "Ali",
-    age: 21,
-    degree: 95
-};
+function demonstrateObjectDestructuring() {
+    const student = {
+        name: "Ali",
+        age: 21,
+        degree: 95
+    };
 
-console.log("=== Task 5: Object Destructuring ===");
+    console.log("=== Task 5: Object Destructuring ===");
 
-// Extracting values using Object Destructuring
-const { name: studentName, age: studentAge, degree: studentDegree } = student;
+    // Extracting values using Object Destructuring
+    const { name: studentName, age: studentAge, degree: studentDegree } = student;
 
-console.log("Name:", studentName);
-console.log("Age:", studentAge);
-console.log("Degree:", studentDegree);
-console.log("");
+    console.log("Name:", studentName);
+    console.log("Age:", studentAge);
+    console.log("Degree:", studentDegree);
+    console.log("");
+}
+
+demonstrateObjectDestructuring();
