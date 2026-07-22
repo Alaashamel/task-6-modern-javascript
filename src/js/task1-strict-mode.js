@@ -1,4 +1,8 @@
-// Task 1 - Strict Mode
+/**
+ * Task 1 - Strict Mode
+ * Demonstrates the use of strict mode in JavaScript
+ */
+
 "use strict";
 
 // Enable Strict Mode at the top of the file
@@ -12,7 +16,11 @@
 // Fix: Use let, const, or var to declare variables
 let secretKey = "abc123";
 
-console.log("=== Task 1: Strict Mode ===");
-console.log("Strict Mode is enabled");
-console.log("Variable declared with let:", secretKey);
-console.log("");
+function demonstrateStrictMode() {
+    console.log("=== Task 1: Strict Mode ===");
+    console.log("Strict Mode is enabled");
+    console.log("Variable declared with let:", secretKey);
+    console.log("");
+}
+
+demonstrateStrictMode();
