@@ -1,5 +1,8 @@
 # Task 6 - Modern JavaScript Concepts (ES6+)
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Language](https://img.shields.io/badge/language-JavaScript-informational.svg) ![Last Commit](https://img.shields.io/github/last-commit/Alaashamel/task-6-modern-javascript)
+
+
 A collection of exercises demonstrating modern JavaScript (ES6+) features.
 
 ## Topics Covered
